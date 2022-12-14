@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+# Change Name to "Set has wallpaper" or somthing like that
+Name=Establecer como fondo de pantalla
+Exec=sh -c "rm -rf /home/hase/.config/wallpaper; ln %f /home/hase/.config/wallpaper; feh --bg-scale /home/hase/.config/wallpaper"
+Categories=Other;
+NoDisplay=true
+MimeType=image/generic
+Terminal=false
